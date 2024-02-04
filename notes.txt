@@ -1,0 +1,7 @@
+content.js
+code that exectues after a web page loads
+can work with content of the web page
+
+background.js
+it loads when chrome gets launched
+it is listening to events with activity of using chrome browser
