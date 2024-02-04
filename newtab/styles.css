@@ -14,7 +14,7 @@
 }
 
 .text-white {
-  color: white;
+  color: black;
 }
 
 .container {
@@ -22,8 +22,33 @@
   height: 100vh;
   background-color: #04295B;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.container img {
+  width: 75%;
+}
+
+.container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#current-time {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#current-date {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
