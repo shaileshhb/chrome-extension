@@ -1,17 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Change bg color",
-  "description": "Changes background color to light blue",
+  "name": "Customize new tab",
+  "description": "Customizes new tab for chrome",
   "version": "0.0.1",
-  "background": {
-    "service_worker": "background.js",
-    "type": "module"
-  },
-  "action": {
-    "default_icon": "images/panda.png"
-  },
-  "permissions": ["activeTab", "tabs", "scripting"],
   "chrome_url_overrides": {
-    "newtab": "newtab/index.html"
+    "newtab": "tab/index.html"
   }
 }
